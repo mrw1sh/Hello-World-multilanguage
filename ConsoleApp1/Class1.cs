@@ -17,5 +17,10 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hallo Welt");
         }
+
+        public void Helpes()
+        {
+            Console.WriteLine("Hola Mundo");
+        }
     }
 }

@@ -10,10 +10,10 @@ namespace ConsoleApp1
     {
         public string Firstname { get; }
         public string Lastname { get; }
-        public Person(string first, string last)
+        public Person(string firstname, string lastname)
         {
-            Firstname = first;
-            Lastname = last;
+            Firstname = firstname;
+            Lastname = lastname;
         }
     }
 }

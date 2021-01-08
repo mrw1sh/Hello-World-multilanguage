@@ -8,8 +8,8 @@ namespace ConsoleApp1
 {
     class Person
     {
-        internal string Firstname { get; }
-        internal string Lastname { get; }
+        internal string Firstname { get; private set; }
+        internal string Lastname { get; private set; }
         public Person(string firstname, string lastname)
         {
             Firstname = firstname;
